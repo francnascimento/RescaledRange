@@ -18,7 +18,7 @@ class RSanalysis:
         try:
             return self.calculateHurst(series, exponent)
         except Exception as e:
-            print("   Error: %s"%e)
+            print("Error: %s"%e)
         
     def bestExponent(self, seriesLenght):
         '''
@@ -106,7 +106,7 @@ class RSanalysis:
             rescaledRangeMean[y] = x/int(math.pow(2,y))
             y = y+1
 
-        #log calculation
+        # log calculation
         rescaledRangeLog = list()
         sizeRangeLog     = list()
         for i in range(0, exponent):
@@ -118,7 +118,8 @@ class RSanalysis:
         return slope
         
         #graphic results working, but not implemented
-        '''ablineValues = [slope * i + intercept for i in sizeRangeLog]
+        '''
+        ablineValues = [slope * i + intercept for i in sizeRangeLog]
         plt.plot(sizeRangeLog, rescaledRangeLog, '--')
         plt.plot(sizeRangeLog, ablineValues, 'b')
         plt.title(slope)
@@ -137,7 +138,8 @@ class RSanalysis:
 
         print("Hurst exponent: " + str(slope))
 
-        plt.show()'''
+        plt.show()
+        '''
 
     def quit(self):
         raise SystemExit()
