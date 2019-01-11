@@ -6,6 +6,7 @@ A program and module that use a technique of statistical analysis for time serie
 
 Calculates the generalized Hurst exponent of a time series. The Hurst exponent gives a value indicating the long-term memory of a time-series, similar to the decay of a autocorrelation function: https://en.wikipedia.org/wiki/Hurst_exponent
 
+### Example
 
 ```bash
 init.py series [exponent]
@@ -16,7 +17,7 @@ positional arguments:
   series             A list with all data in floats/ints
 
 optional arguments:
-  exponent           Determine the range of the analysis, based on exponents of the number 2, so if 1 is passed  					   then will be calculated the range 1/2, if 2 it will be calculated for 1/2 and 1/4, if 3 for 					   1/2, 1/4 and 1/8, and so on. If nothing is passed, will be calculate to the more accurate range
+  exponent           Determine the range of the analysis, based on exponents of the number 2, so if 1 is passed then will be calculated the range 1/2, if 2 it will be calculated for 1/2 and 1/4, if 3 for 1/2, 1/4 and 1/8, and so on. If nothing is passed, will be calculate to the more accurate range
 
 ```
 
@@ -38,25 +39,6 @@ Please use the [issue tracker](https://github.com/francnascimento/RescaledRange/
 
 ## License
 
-The MIT License (MIT)
-
-Copyright (c) 2013-2018 Francisco Nascimento
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+This project is free to use according to the [MIT License](https://github.com/francnascimento/RescaledRange/blob/master/LICENSE) as long as you cite me and the License (read the License for more details). You can cite me by pointing to the following link:
+- https://github.com/francnascimento/RescaledRange
 
