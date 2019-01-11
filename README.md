@@ -10,16 +10,19 @@ Calculates the generalized Hurst exponent of a time series. The Hurst exponent g
 
 ```bash
 init.py series [exponent]
+```
 
-Calculate the Hurst exponent
+#### Calculate the Hurst exponent
 
 positional arguments:
-  series             A list with all data in floats/ints
+* series : A list with all data in floats/ints
 
 optional arguments:
-  exponent           Determine the range of the analysis, based on exponents of the number 2, so if 1 is passed then will be calculated the range 1/2, if 2 it will be calculated for 1/2 and 1/4, if 3 for 1/2, 1/4 and 1/8, and so on. If nothing is passed, will be calculate to the more accurate range
+* exponent : Determine the range of the analysis, based on exponents of the number 2, so if 1 is
+  passed then will be calculated the range 1/2, if 2 it will be calculated for 1/2 and 1/4,if 3 for 1/2, 1/4
+  and 1/8, and so on. If nothing is passed, will be calculate to the more accurate range
 
-```
+
 
 ## Contributing
 
