@@ -1,6 +1,6 @@
 # RescaledRange ![Language Badge](https://img.shields.io/badge/Language-Python-red.svg) ![License Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
-A program and module that use a technique of statistical analysis for time series(Rescaled Range), which aims to find the Hurst exponent: https://en.wikipedia.org/wiki/Rescaled_range
+A program and module that use a statistical analysi's technique for time series(Rescaled Range), which aims to find the Hurst exponent: https://en.wikipedia.org/wiki/Rescaled_range
 
 ### The Hurst exponent
 
