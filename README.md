@@ -42,6 +42,6 @@ Please use the [issue tracker](https://github.com/francnascimento/RescaledRange/
 
 ## License
 
-This project is free to use according to the [MIT License](https://github.com/francnascimento/RescaledRange/blob/master/LICENSE) as long as you cite me and the License (read the License for more details). You can cite me by pointing to the following link:
-- https://github.com/francnascimento/RescaledRange
+This project is free to use according to the [MIT License](https://github.com/francnascimento/rescaled-range/blob/master/LICENSE) as long as you cite me and the License (read the License for more details). You can cite me by pointing to the following link:
+- https://github.com/francnascimento/rescaled-range
 
